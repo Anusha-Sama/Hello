@@ -1,0 +1,18 @@
+p::first-line{
+  background-color: green;
+}
+h1::first-letter{
+	background-color: red;
+}
+h2::selection{
+	color: red;
+	background-color: yellow;
+}
+h3::before{
+	content: "Read This- ";
+	color: green;
+}
+h4::after{
+	content: " - Read More";
+	color: red;
+}
